@@ -13,7 +13,7 @@ export default function Footer() {
         >
           <p className="font-display text-lg font-bold text-gradient">AGS</p>
           <p className="flex items-center gap-1">
-            Built with <Heart size={14} className="text-primary" /> by Assani G. Shabani
+            Built by Assani G. Shabani
           </p>
           <p>© {new Date().getFullYear()} All rights reserved</p>
         </motion.div>
