@@ -45,6 +45,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
+  base: '/portfoliosite/',
   plugins: [react()],
   resolve: {
     alias: {
